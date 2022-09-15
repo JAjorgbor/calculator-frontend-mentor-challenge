@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Overpass:wght@300;400;600&family=Roboto:wght@500;700&family=Ubuntu:wght@300;500;700&display=swap");
+/*
+NEON THEME 
+*/
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  transition: color 1.5s background-color 1.5s;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  background-color: hsl(222deg, 26%, 31%);
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main .container {
+  width: 330px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main .labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8em;
+}
+main .logo {
+  font-size: 2.5em;
+}
+main .theme-switcher {
+  display: flex;
+}
+main .theme-switcher .theme-label {
+  margin-right: 1.5em;
+  font-size: 0.8em;
+  align-self: center;
+}
+main .themes {
+  width: 5em;
+  height: 1.8em;
+  padding: 4px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .themes span {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: all 1s;
+  position: relative;
+  cursor: pointer;
+}
+main .themes span:before {
+  transform: scale(1);
+  display: block;
+  position: absolute;
+  bottom: 150%;
+  left: 30%;
+  content: "1";
+}
+main .themes #light-theme:before {
+  content: "2";
+}
+main .themes #neon-theme:before {
+  content: "3";
+}
+main .input-div {
+  position: relative;
+  width: 100%;
+}
+main .input-div .number-preview {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  font-size: 1.2rem;
+}
+main .input-div .text-field {
+  width: 100%;
+  font-weight: 700;
+  border-radius: 10px;
+  outline: none;
+  border-width: 0;
+  font-size: 2rem;
+  padding: 1em 0.5em;
+  direction: rtl;
+  text-indent: 0.3em;
+}
+
+.button-container {
+  -webkit-margin-before: 5%;
+          margin-block-start: 5%;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1.5em;
+  grid-gap: 5%;
+  grid-row-gap: 7%;
+  height: 350px;
+}
+.button-container input[type=button] {
+  cursor: pointer;
+  border-radius: 5px;
+  border-width: 0;
+  font-weight: 700;
+}
+.button-container input[type=button]:active {
+  transform: translateY(5px);
+}
+.button-container .number {
+  font-size: 2rem;
+}
+.button-container .reset-button {
+  grid-column: 1/span 2;
+}
+.button-container .reset-button, .button-container .del-button {
+  font-size: 1.5rem;
+}
+
+.equal-button {
+  grid-column: 3/span 2;
+  font-size: 2rem;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+  main .container {
+    width: 400px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+// shadow mixin
+@mixin shadow($shadowHeight:9px,$shadowColor){
+    box-shadow:0 $shadowHeight $shadowColor;
+}
+// viewport mixin
+@mixin screenSize($screenWidth:600px){
+    @media screen and (min-width:$screenWidth){
+        @content;
+    }
+}

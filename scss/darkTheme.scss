@@ -1,0 +1,72 @@
+@use "variables" as *;
+@use "mixins" as *;
+body{
+    background-color: $darkThemeBackground;
+
+}
+main{
+    color:$whiteText;
+}
+.themes{
+    background-color: $themeToggleBackground;
+
+    .active-span{
+        background-color:$darkThemeEqualsColor;
+
+    }
+}
+.input-div{
+    color:$whiteText;
+}
+.text-field{
+    background-color:$darkThemeScreenBackground;
+    color:inherit;
+
+
+}
+.button-container{
+    background-color:$themeToggleBackground;
+
+}
+.number{
+    color: $darkGrayishBlueText;
+
+    @include shadow(9px,$darkThemePrimaryColor);
+
+}
+.number:active{
+    @include shadow(4px,$darkThemePrimaryColor);
+
+}
+.reset-button,.del-button{   
+    color:$whiteText;
+     background-color: $darkThemeKeyBackground;
+    @include shadow(9px,$darkThemeKeyShadow);
+}
+
+.reset-button:active,
+.del-button:active{
+    @include shadow(4px,$darkThemeKeyShadow) ;
+
+}
+.equal-button{
+    color:$whiteText;
+
+    background-color: $darkThemeEqualsColor;
+
+    @include shadow(9px,$darkThemeEqualsShadow);
+}
+
+.equal-button:active{
+     @include shadow(4px,$darkThemeEqualsShadow);
+
+}
+
+//atribution 
+.attribution {
+
+    color:$whiteText}
+  .attribution a { 
+
+    color:$darkThemeEqualsColor;
+}

@@ -1,0 +1,68 @@
+/*
+NEON THEME 
+*/
+body {
+  background-color: hsl(222deg, 26%, 31%);
+}
+
+main {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.themes {
+  background-color: hsl(223deg, 31%, 20%);
+}
+.themes .active-span {
+  background-color: hsl(6deg, 63%, 50%);
+}
+
+.input-div {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.text-field {
+  background-color: hsl(224deg, 36%, 15%);
+  color: inherit;
+}
+
+.button-container {
+  background-color: hsl(223deg, 31%, 20%);
+}
+
+.number {
+  color: hsl(221deg, 14%, 31%);
+  box-shadow: 0 9px hsl(28deg, 16%, 65%);
+}
+
+.number:active {
+  box-shadow: 0 4px hsl(28deg, 16%, 65%);
+}
+
+.reset-button, .del-button {
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(225deg, 21%, 49%);
+  box-shadow: 0 9px hsl(224deg, 28%, 35%);
+}
+
+.reset-button:active,
+.del-button:active {
+  box-shadow: 0 4px hsl(224deg, 28%, 35%);
+}
+
+.equal-button {
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(6deg, 63%, 50%);
+  box-shadow: 0 9px hsl(6deg, 70%, 34%);
+}
+
+.equal-button:active {
+  box-shadow: 0 4px hsl(6deg, 70%, 34%);
+}
+
+.attribution {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.attribution a {
+  color: hsl(6deg, 63%, 50%);
+}/*# sourceMappingURL=darkTheme.css.map */
