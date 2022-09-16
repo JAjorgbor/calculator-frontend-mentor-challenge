@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://joshuaaj003.github.io/calculator-frontend-mentor-challenge/)
 
 ## My process
 
@@ -55,10 +55,10 @@ Users should be able to:
 
 ### Useful resources
 
-- [How to build a calculator by Doro Onome](https://www.section.io/engineering-education/building-a-calculator-a-javascript-project-for-beginners/) - This helped me in creating the logical workflow of how the calculator worked using ES6 concepts like classes and objects. I really liked this pattern and will use it going forward.
+- ["How to build a calculator by Doro Onome"](https://www.section.io/engineering-education/building-a-calculator-a-javascript-project-for-beginners/) - This helped me in creating the logical workflow of how the calculator worked using ES6 concepts like classes and objects. I really liked this pattern and will use it going forward.
 
 ## Author
 
-- Website - [Joshua Ajorgbor](https://www.your-site.com)
+
 - Frontend Mentor - [@joshuaAj003](https://www.frontendmentor.io/profile/joshuaAj003)
 - Twitter - [@JAjorgbor](https://www.twitter.com/JAjorgbor)
