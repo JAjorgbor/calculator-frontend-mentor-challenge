@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://joshuaaj003.github.io/calculator-frontend-mentor-challenge/)
+- Solution URL: [click here to see the solution](https://your-solution-url.com)
+- Live Site URL: [click here to see the live site](https://joshuaaj003.github.io/calculator-frontend-mentor-challenge/)
 
 ## My process
 
