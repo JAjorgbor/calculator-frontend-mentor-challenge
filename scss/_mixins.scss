@@ -1,5 +1,7 @@
 // shadow mixin
 @mixin shadow($shadowHeight:9px,$shadowColor){
+    -webkit-box-shadow:0 $shadowHeight $shadowColor; 
+    -moz-box-shadow:0 $shadowHeight $shadowColor; 
     box-shadow:0 $shadowHeight $shadowColor;
 }
 // viewport mixin

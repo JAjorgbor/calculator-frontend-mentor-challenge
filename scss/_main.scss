@@ -121,20 +121,20 @@ height:100vh;
 }
 }
 .button-container{
-    margin-block-start: 5%;
+    margin-top: 5%;
     border-radius:10px;
     display:grid;
     grid-template-columns: repeat(4,1fr);
     padding:1.5em;
-    grid-gap:5%;
-    grid-row-gap:7%;
-    height:350px;
-
+    grid-gap:12px;
+    grid-row-gap:18px;
+    
+    
     
 
     input[type=button]{
         cursor:pointer;
-
+        //  margin:10%;
         border-radius:5px;
         border-width:0;
         font-weight:700;
