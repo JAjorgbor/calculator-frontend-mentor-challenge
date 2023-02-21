@@ -1,68 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Calculator app</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/darkTheme.css"><!--color themes-->
- 
+
 </head>
+
 <body>
-<main>
-  <div class="container">
-    <div class="head-section">
-      <div class="labels">
-    <p class="logo">calc</p>
-    <div class="theme-switcher" >
-      <p class="theme-label">THEME</p>
-      <div class="themes">
-      <span data-theme-button="dark" id="dark-theme" class="switch active-span"></span>
-      <span data-theme-button="light" id="light-theme" class="switch"></span>
-      <span data-theme-button="neon" id="neon-theme" class="switch"></span>
+  <main>
+    <div class="container">
+      <div class="head-section">
+        <div class="labels">
+          <p class="logo">calc</p>
+          <div class="theme-switcher">
+            <p class="theme-label">THEME</p>
+            <div class="themes">
+              <span data-theme-button="dark" id="dark-theme" class="switch active-span"></span>
+              <span data-theme-button="light" id="light-theme" class="switch"></span>
+              <span data-theme-button="neon" id="neon-theme" class="switch"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-div">
+          <span class="number-preview"></span>
+          <input type="text" class="text-field" data-input="number" disabled>
+        </div>
+      </div>
+      <div class="button-container">
+        <input type="button" value="7" data-button-type="number" class="number">
+        <input type="button" value="8" data-button-type="number" class="number">
+        <input type="button" value="9" data-button-type="number" class="number">
+        <input type="button" value="DEL" data-button-type="delete" class="del-button">
+        <input type="button" value="4" data-button-type="number" class="number">
+        <input type="button" value="5" data-button-type="number" class="number">
+        <input type="button" value="6" data-button-type="number" class="number">
+        <input type="button" value="+" data-button-type="operation" class="number">
+        <input type="button" value="1" data-button-type="number" class="number">
+        <input type="button" value="2" data-button-type="number" class="number">
+        <input type="button" value="3" data-button-type="number" class="number">
+        <input type="button" value="-" data-button-type="operation" class="number">
+        <input type="button" value="." data-button-type="number" class="number">
+        <input type="button" value="0" data-button-type="number" class="number">
+        <input type="button" value="/" data-button-type="operation" class="number">
+        <input type="button" value="x" data-button-type="operation" class="number">
+        <input type="button" value="RESET" data-button-type="reset" class="reset-button">
+        <input type="button" value="=" data-button-type="equal" class="equal-button">
+      </div>
     </div>
     </div>
-    </div>
-    <div class="input-div">
-      <span class="number-preview"></span>
-    <input type="text"  class="text-field" data-input="number" disabled>
-  </div>
-</div>
-  <div class="button-container" >
-    <input type="button" value="7" data-button-type="number" class="number">
-    <input type="button" value="8" data-button-type="number" class="number">
-    <input type="button" value="9" data-button-type="number" class="number">
-    <input type="button" value="DEL" data-button-type="delete" class="del-button">
-    <input type="button" value="4" data-button-type="number" class="number">
-    <input type="button" value="5" data-button-type="number" class="number">
-    <input type="button" value="6" data-button-type="number" class="number">
-    <input type="button" value="+" data-button-type="operation" class="number">
-    <input type="button" value="1" data-button-type="number" class="number">
-    <input type="button" value="2" data-button-type="number" class="number">
-    <input type="button" value="3" data-button-type="number" class="number">
-    <input type="button" value="-" data-button-type="operation" class="number">
-    <input type="button" value="." data-button-type="number" class="number">
-    <input type="button" value="0" data-button-type="number" class="number">
-    <input type="button" value="/" data-button-type="operation" class="number">
-    <input type="button" value="x" data-button-type="operation" class="number">
-    <input type="button" value="RESET" data-button-type="reset" class="reset-button">
-    <input type="button" value="=" data-button-type="equal"class="equal-button">
-  </div>
-  </div>
-</div>
 
 
-</main>
+  </main>
 
 
-  
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.frontendmentor.io/profile/joshuaAj003">Joshsua Aj</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/JAjorgbor">Joshsua Aj</a>.
     <script src="./calculator.js"></script>
   </div>
 </body>
+
 </html>

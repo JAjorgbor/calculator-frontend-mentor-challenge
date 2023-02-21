@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [click here to see the solution](https://your-solution-url.com)
-- Live Site URL: [click here to see the live site](https://joshuaaj003.github.io/calculator-frontend-mentor-challenge/)
+- Live Site URL: [click here to see the live site](https://JAjorgbor.github.io/calculator-frontend-mentor-challenge/)
 
 ## My process
 
@@ -60,5 +60,5 @@ Users should be able to:
 ## Author
 
 
-- Frontend Mentor - [@joshuaAj003](https://www.frontendmentor.io/profile/joshuaAj003)
+- Frontend Mentor - [@JAjorgbor](https://www.frontendmentor.io/profile/JAjorgbor)
 - Twitter - [@JAjorgbor](https://www.twitter.com/JAjorgbor)

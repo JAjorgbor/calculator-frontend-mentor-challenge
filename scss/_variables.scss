@@ -1,48 +1,52 @@
 //DARK THEME BACKGROUNDS
-$darkThemeBackground:hsl(222, 26%, 31%);
-$themeToggleBackground:hsl(223, 31%, 20%);
-$darkThemeScreenBackground:hsl(224, 36%, 15%);
+$darkThemeBackground: hsl(222, 26%, 31%);
+$themeToggleBackground: hsl(223, 31%, 20%);
+$darkThemeScreenBackground: hsl(224, 36%, 15%);
 // DARK THEME KEY BACKGROUNDS AND SHADOWS
-$darkThemeKeyBackground:hsl(225, 21%, 49%);
+$darkThemeKeyBackground: hsl(225, 21%, 49%);
 $darkThemeKeyShadow: hsl(224, 28%, 35%);
-$darkThemePrimaryColor:hsl(28, 16%, 65%);
+$darkThemePrimaryColor: hsl(28, 16%, 65%);
 $darkThemeEqualsColor: hsl(6, 63%, 50%);
-$darkThemeEqualsShadow:hsl(6, 70%, 34%);
+$darkThemeEqualsShadow: hsl(6, 70%, 34%);
 // DARK THEME KEY TEXT
 
-$darkGrayishBlueText:hsl(221, 14%, 31%);
-$whiteText:hsl(0, 0, 100%);
+$darkGrayishBlueText: hsl(221, 14%, 31%);
+$whiteText: hsl(0, 0, 100%);
 // light theme backgrounds
-$lightGrayMainBackground:hsl(0, 0%, 90%);
-$grayishRedThemeToggleBackground:hsl(0, 5%, 81%);
-$veryLightGrayScreenBackground:hsl(0, 0%, 93%);
+$lightGrayMainBackground: hsl(0, 0%, 90%);
+$grayishRedThemeToggleBackground: hsl(0, 5%, 81%);
+$veryLightGrayScreenBackground: hsl(0, 0%, 93%);
 // light theme keys
-$darkModerateCyan:hsl(185, 42%, 37%);//key background
-$veryDarkCyan:hsl(185, 58%, 25%);//key shadow
+$darkModerateCyan: hsl(185, 42%, 37%); //key background
+$veryDarkCyan: hsl(185, 58%, 25%); //key shadow
 
-$orangeBackground:hsl(25, 98%, 40%);//equals key and toggle background
-$darkOrange:hsl(25, 99%, 27%);//equals key shadow
-$lightGrayishYellow:hsl(45, 7%, 89%);//number key background
-$darkGrayishOrange:hsl(35, 11%, 61%);//number key shadow
+$orangeBackground: hsl(25, 98%, 40%); //equals key and toggle background
+$darkOrange: hsl(25, 99%, 27%); //equals key shadow
+$lightGrayishYellow: hsl(45, 7%, 89%); //number key background
+$darkGrayishOrange: hsl(35, 11%, 61%); //number key shadow
 // LIGHT THEME TEXT
-$veryDarkGrayishYellow:hsl(60, 10%, 19%);
+$veryDarkGrayishYellow: hsl(60, 10%, 19%);
 /*
 NEON THEME 
-*/ 
+*/
 // neon theme backgrounds
-$mainDarkViolet: hsl(268, 75%, 9%);//body background
-$secondaryDarkViolet: hsl(268, 71%, 12%); //toggle background, keypad background, screen background)
+$mainDarkViolet: hsl(268, 75%, 9%); //body background
+$secondaryDarkViolet: hsl(
+  268,
+  71%,
+  12%
+); //toggle background, keypad background, screen background)
 
 // neon theme keys
 
-$keyDarkViolet : hsl(281, 89%, 26%);//(key background)
-$keyVividMagenta : hsl(285, 91%, 52%);//(key shadow)
+$keyDarkViolet: hsl(281, 89%, 26%); //(key background)
+$keyVividMagenta: hsl(285, 91%, 52%); //(key shadow)
 
-$pureCyan : hsl(176, 100%, 44%);//(key background, toggle)
-$SoftCyan : hsl(177, 92%, 70%);//(key shadow)
+$pureCyan: hsl(176, 100%, 44%); //(key background, toggle)
+$SoftCyan: hsl(177, 92%, 70%); //(key shadow)
 
-$keyBackgroundDarkViolet : hsl(268, 47%, 21%);//(key background)
-$DarkMagenta : hsl(290, 70%, 36%);//(key shadow)
+$keyBackgroundDarkViolet: hsl(268, 47%, 21%); //(key background)
+$DarkMagenta: hsl(290, 70%, 36%); //(key shadow)
 
 // neon theme Text
 

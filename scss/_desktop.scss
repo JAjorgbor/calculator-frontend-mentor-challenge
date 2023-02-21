@@ -1,16 +1,9 @@
 @use "variables" as *;
 @use "mixins" as *;
-main{
-
-    .container{
-        
-        @include screenSize(){
-            
-            width:400px;
-            
-        }
-
+main {
+  .container {
+    @include screenSize() {
+      width: 400px;
     }
-    }
-    
-    
+  }
+}

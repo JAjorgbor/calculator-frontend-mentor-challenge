@@ -1,74 +1,63 @@
 @use "variables" as *;
 @use "mixins" as *;
-body{
-    background-color: $mainDarkViolet;
+body {
+  background-color: $mainDarkViolet;
+}
+main {
+  color: $LighYellow;
+}
+.themes {
+  background-color: $secondaryDarkViolet;
 
+  .active-span {
+    background-color: $pureCyan;
+  }
 }
-main{
-    color:$LighYellow;
+.input-div {
+  color: $LighYellow;
 }
-.themes{
-    background-color: $secondaryDarkViolet;
-
-    .active-span{
-        background-color:$pureCyan;
-
-    }
+.text-field {
+  background-color: $secondaryDarkViolet;
+  color: inherit;
 }
-.input-div{
-    color:$LighYellow;
+.button-container {
+  background-color: $secondaryDarkViolet;
 }
-.text-field{
-    background-color:$secondaryDarkViolet;
-    color:inherit;
-
-
+// bookmark, i stoped here start looking from here
+.number {
+  color: $LighYellow;
+  background-color: $keyDarkViolet;
+  @include shadow(9px, $keyVividMagenta);
 }
-.button-container{
-    background-color:$secondaryDarkViolet;
-    
+.number:active {
+  @include shadow(4px, $keyVividMagenta);
 }
-// bookmark, i stoped here start looking from here 
-.number{
-    color: $LighYellow;
-    background-color:$keyDarkViolet ;
-    @include shadow(9px,$keyVividMagenta);
-
-}
-.number:active{
-    @include shadow(4px,$keyVividMagenta);
-
-}
-.reset-button,.del-button{   
-    color:$whiteText;
-     background-color: $keyBackgroundDarkViolet;
-    @include shadow(9px,$keyVividMagenta);
+.reset-button,
+.del-button {
+  color: $whiteText;
+  background-color: $keyBackgroundDarkViolet;
+  @include shadow(9px, $keyVividMagenta);
 }
 
 .reset-button:active,
-.del-button:active{
-    @include shadow(4px,$keyVividMagenta) ;
-
+.del-button:active {
+  @include shadow(4px, $keyVividMagenta);
 }
-.equal-button{
-    color:$whiteText;
+.equal-button {
+  color: $whiteText;
 
+  background-color: $pureCyan;
 
-    background-color: $pureCyan;
-
-    @include shadow(9px,$SoftCyan );
+  @include shadow(9px, $SoftCyan);
 }
 
-.equal-button:active{
-     @include shadow(4px,$SoftCyan );
-
+.equal-button:active {
+  @include shadow(4px, $SoftCyan);
 }
 //attribution
 .attribution {
-
-    color:$LighYellow;
-    
+  color: $LighYellow;
 }
-.attribution a { 
-color:$pureCyan;
+.attribution a {
+  color: $pureCyan;
 }

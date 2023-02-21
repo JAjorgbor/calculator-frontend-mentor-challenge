@@ -1,74 +1,63 @@
 @use "variables" as *;
 @use "mixins" as *;
-body{
-    background-color: $lightGrayMainBackground;
-
+body {
+  background-color: $lightGrayMainBackground;
 }
-main{
-    color:$veryDarkGrayishYellow;
+main {
+  color: $veryDarkGrayishYellow;
 }
-.themes{
-    background-color: $grayishRedThemeToggleBackground;
+.themes {
+  background-color: $grayishRedThemeToggleBackground;
 
-    .active-span{
-        background-color:$orangeBackground;
-
-    }
+  .active-span {
+    background-color: $orangeBackground;
+  }
 }
-.input-div{
-    color:$veryDarkGrayishYellow;
+.input-div {
+  color: $veryDarkGrayishYellow;
 }
-.text-field{
-    background-color:$veryLightGrayScreenBackground;
-    color:inherit;
-
-
+.text-field {
+  background-color: $veryLightGrayScreenBackground;
+  color: inherit;
 }
-.button-container{
-    background-color:$grayishRedThemeToggleBackground;
-    
+.button-container {
+  background-color: $grayishRedThemeToggleBackground;
 }
-// bookmark, i stoped here start looking from here 
-.number{
-    color: $veryDarkGrayishYellow;
+// bookmark, i stoped here start looking from here
+.number {
+  color: $veryDarkGrayishYellow;
 
-    @include shadow(9px,$darkGrayishOrange);
-
+  @include shadow(9px, $darkGrayishOrange);
 }
-.number:active{
-    @include shadow(4px,$darkGrayishOrange);
-
+.number:active {
+  @include shadow(4px, $darkGrayishOrange);
 }
-.reset-button,.del-button{   
-    color:$whiteText;
-     background-color: $darkModerateCyan;
-    @include shadow(9px,$veryDarkCyan);
+.reset-button,
+.del-button {
+  color: $whiteText;
+  background-color: $darkModerateCyan;
+  @include shadow(9px, $veryDarkCyan);
 }
 
 .reset-button:active,
-.del-button:active{
-    @include shadow(4px,$veryDarkCyan) ;
-
+.del-button:active {
+  @include shadow(4px, $veryDarkCyan);
 }
-.equal-button{
-    color:$whiteText;
+.equal-button {
+  color: $whiteText;
 
+  background-color: $orangeBackground;
 
-    background-color: $orangeBackground;
-
-    @include shadow(9px,$darkOrange);
+  @include shadow(9px, $darkOrange);
 }
 
-.equal-button:active{
-     @include shadow(4px,$darkOrange);
-
+.equal-button:active {
+  @include shadow(4px, $darkOrange);
 }
 //attribution
 .attribution {
-
-    color:$veryDarkGrayishYellow;
-    
+  color: $veryDarkGrayishYellow;
 }
-.attribution a { 
-color:$darkModerateCyan;
+.attribution a {
+  color: $darkModerateCyan;
 }
